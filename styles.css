@@ -1,0 +1,98 @@
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+}
+
+body {
+    padding-top: 10px;
+    padding-left: 100px;
+    padding-right: 100px;
+
+}
+
+.conteudo {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+}
+
+.caixa-texto {
+    width: 600px;
+}
+
+.caixa-imagem {
+    width: 300px;
+    display: flex;
+    justify-content: flex-end;
+    margin-top: 20px;
+}
+
+.menu {
+    display: flex;
+    justify-content: center;
+
+
+}
+
+h2 {
+    color: #333;
+    font-size: 50px;
+    font-weight: 500;
+}
+
+span {
+    color: #017143;
+    font-size: 60px;
+    font-weight: 900;
+}
+
+p {
+    font-size: 14px;
+}
+
+button {
+    background: #017143;
+    color: #fff;
+    border-radius: 40px;
+    border: none;
+    cursor: pointer;
+    padding: 10px;
+    margin-top: 20px;
+
+}
+
+.logo {
+    width: 80px;
+}
+
+.Starbucks {
+    width: 260px;
+}
+
+.botao-menu {
+    width: 50px;
+    transition: 1s;
+    cursor: pointer;
+    margin: 20px;
+}
+
+.botao-menu:hover {
+    transform: translateY(-20px);
+}
+
+.circulo {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    background: #017143;
+    top: 0;
+    left: 0;
+    clip-path: circle(530px at right 580px);
+    z-index: -1;
+
+}
